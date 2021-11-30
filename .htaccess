@@ -1,0 +1,14 @@
+#HIDE PHP EXTENTION
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L] 
+#HIDE HTML EXTENTION
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+#https
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(cart/|checkout/) https://%{HTTP_HOST}%{REQUEST_URI}
