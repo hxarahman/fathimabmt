@@ -5,7 +5,7 @@ include 'lang.php';
 $footer =           '<!-- START FOOTER -->
 
                     <div class="float_whatsapp">
-                      <a href="https://wa.me/971561267009" target="_blank" rel="noopener noreferrer">
+                      <a href="https://wa.me/971556182050" target="_blank" rel="noopener noreferrer">
                         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800" width="1200" viewBox="-93.2412 -156.2325 808.0904 937.395">
                           <defs>
                             <linearGradient x1=".5" y1="0" x2=".5" y2="1" id="a">
@@ -136,7 +136,7 @@ $footer =           '<!-- START FOOTER -->
                       </div>
                       <div class="copyright">
                         <div class="container">
-                          <p>&#169;2018 '.$copyright.' <a href="https://msac.ae" target="_blank" rel="noopener noreferrer">MSAC SOLUTION</a></p>
+                          <p>&#169;2018 '.$copyright.' <a href="https://github.com/hxarahman" target="_blank" rel="noopener noreferrer">Abdul Rahman</a></p>
                         </div>  
                       </div>  
                     </footer>

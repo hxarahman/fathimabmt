@@ -164,7 +164,7 @@ $home='<!DOCTYPE html>
                             <i class="fa fa-phone-volume"></i>
                             <p>
                               <span>'.$call_us.'</span></br>
-                              <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                              <a href="tel:+971556182050">+971 55 618 2050</a>
                             </p>
                           </div>
                         </div>

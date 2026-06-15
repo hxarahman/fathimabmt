@@ -27,10 +27,8 @@ include "footer.php";
                 <ul class="ml-4 mb-4">
                   <li><a target="_blank" href=""><?php echo $company_name;?></a></li>
                   <li><a target="_blank" href="#"><?php echo $company_location;?></a></li>
-                  <li><a target="_blank" href="tel:+15551234567">+1 (555) 123-4567</a></li>
-                  <li><a target="_blank" href="tel:+15559876543">+1 (555) 987-6543</a></li>
-                  <li><a target="_blank" href="mailto:support@example.com">support@example.com</a></li>
-                  <li><a target="_blank" href="mailto:contact@example.com">contact@example.com</a></li>
+                  <li><a target="_blank" href="tel:+971556182050">+971 55 618 2050</a></li>
+                  <li><a target="_blank" href="tel:+971502386667">+971 50 238 6667</a></li>
                 </ul>
                 <form>
                     <div class="form-row">

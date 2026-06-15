@@ -1,0 +1,20 @@
+@font-face{
+    font-family: "goldman";
+    src: url(ttf/Goldman-Regular.ttf);
+}
+@font-face{
+    font-family: "goldman-bold";
+    src: url(ttf/Goldman-Bold.ttf);
+}
+@font-face{
+    font-family: "roboto-cond";
+    src: url(ttf/Oswald-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: "josefin";
+    src: url(ttf/josefin.ttf);
+}
+@font-face{
+    font-family: "owswald";
+    src: url(ttf/Oswald-VariableFont_wght.ttf);
+}
