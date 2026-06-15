@@ -1,4 +1,7 @@
 /backup
 /vendor
+/bootstrap/cache
+/public/storage
+/storage
 .env
 .env.*
