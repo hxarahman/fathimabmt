@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Storage;
 
 class ProductSeeder extends Seeder
 {
@@ -42,6 +43,12 @@ class ProductSeeder extends Seeder
         ];
 
         foreach ($products as $data) {
+            $filename = basename($data['image']);
+            $src = public_path("images/product/{$filename}");
+            if (file_exists($src)) {
+                Storage::disk('public')->put("products/{$filename}", file_get_contents($src));
+            }
+
             Product::firstOrCreate(
                 ['name' => $data['name'], 'category_id' => $data['category_id']],
                 $data

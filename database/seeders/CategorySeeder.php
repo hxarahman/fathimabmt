@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Category;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Storage;
 
 class CategorySeeder extends Seeder
 {
@@ -28,6 +29,12 @@ class CategorySeeder extends Seeder
         ];
 
         foreach ($categories as $data) {
+            $filename = basename($data['image']);
+            $src = public_path("images/cats/{$filename}");
+            if (file_exists($src)) {
+                Storage::disk('public')->put("categories/{$filename}", file_get_contents($src));
+            }
+
             Category::firstOrCreate(['name' => $data['name']], $data);
         }
     }
